@@ -20,7 +20,7 @@
 <div *ngIf="selectedHero" id="box">
 
   <h3>{{selectedHero.name | uppercase}} Details</h3>
-  <div><span>id: </span>{{selectedHero.id}}</div>
+  <div><span>id: </span> {{selectedHero.id}}</div>
   <div>
     <label>name:
       <input [(ngModel)]="selectedHero.name" placeholder="name">
